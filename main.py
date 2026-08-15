@@ -8,3 +8,10 @@ async def index():
     return {
         "success": 1
     }
+
+port='hi'
+@app.get(f"/{port}/good")
+async def index():
+    return {
+        "success": "vdhfns"
+    }
